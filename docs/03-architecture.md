@@ -9,12 +9,12 @@
 ```yaml
 3 hlavní části:
 
-1. Builder (pixcard.me/builder)
+1. Builder (pixfolio.me/builder)
    - Svelte UI pro vytvoření portfolia
    - Username, postava, pozadí, dialogy
    - Preview a publish
 
-2. Runtime (username.pixcard.me)
+2. Runtime (username.pixfolio.me)
    - Phaser game který zobrazí portfolio
    - Načte config z DB
    - Interaktivní experience
@@ -32,19 +32,19 @@
 ### Vytvoření portfolia
 
 ```
-User → Vyplní builder → Preview → Sign up → Publish → Live na username.pixcard.me
+User → Vyplní builder → Preview → Sign up → Publish → Live na username.pixfolio.me
 ```
 
 **Co se děje:**
 1. Builder: User nastaví postavu, pozadí, napíše dialogy
 2. Preview: Iframe ukáže jak to vypadá (Phaser game)
 3. Publish: Uloží config do MySQL (přes PHP API)
-4. Subdomain: WebGlobe routing vytvoří username.pixcard.me
+4. Subdomain: WebGlobe routing vytvoří username.pixfolio.me
 
 ### Zobrazení portfolia
 
 ```
-Visitor → johndoe.pixcard.me → PHP načte config z DB → Phaser game → Interaktivní portfolio
+Visitor → johndoe.pixfolio.me → PHP načte config z DB → Phaser game → Interaktivní portfolio
 ```
 
 **Co se děje:**
@@ -109,7 +109,7 @@ Backend validuje:
 
 ```yaml
 WebGlobe .htaccess:
-  username.pixcard.me → /runtime/index.php?username=XXX
+  username.pixfolio.me → /runtime/index.php?username=XXX
 
 PHP Runtime:
   - Extrahuj username

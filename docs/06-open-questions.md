@@ -13,26 +13,46 @@ Option A: pixcard.me
   ✅ Card = business card asociace
   ✅ Short, memorable
   ✅ International reach
+  ❌ LEGAL RISK: Aktivní ochranná známka v Brazílii (Class 9 - software)
+  ❌ Potenciální problémy s globálním brandem
 
-Option B: pixfolio.me
+Option B: pixfolio.me  ⭐ DOPORUČENO
   ✅ Portfolio = long-term content
   ✅ Unique (zero konkurence na Google)
-  ⚠️ Méně intuitivní
+  ✅ PRÁVNĚ ČISTÁ: Žádné ochranné známky nalezeny
+  ✅ Bezpečná pro globální expanzi
+  ✅ Folio = portfolio asociace (známý pattern)
+  🟡 Méně intuitivní (ale bezpečnější)
 
-Aktuální preference: pixcard.me
+Aktuální preference: pixfolio.me (kvůli právní bezpečnosti)
 ```
 
-**🚨 ACTION:** Registrovat doménu ASAP (než ji vezme někdo jiný)
+**⚖️ PRÁVNÍ KONTEXT:**
+```yaml
+PixCard:
+  - Aktivní trademark v Brazílii (Class 9: Software)
+  - Riziko cease & desist při globálním růstu
+  - Možné problémy s App Store/Google Play v některých regionech
+  
+PixFolio:
+  - Žádné nalezené ochranné známky
+  - Volná cesta pro registraci vlastního trademarks
+  - Bezpečnější pro investory a long-term business
+```
+
+**🚨 ACTION:** Registrovat pixfolio.me ASAP
 
 **Checklist před registrací:**
 ```bash
 # Zkontrolovat dostupnost
-whois pixcard.me
 whois pixfolio.me
 
 # Zkontrolovat social handles
-twitter.com/pixcard
-instagram.com/pixcard
+twitter.com/pixfolio
+instagram.com/pixfolio
+tiktok.com/@pixfolio
+
+# Připravit redirect z pixcard.me (pokud bychom ji koupili jako backup)
 ```
 
 **🚨 ROZHODNUTÍ:** _____________ (URGENTNÍ)
@@ -97,7 +117,7 @@ Pixel-art style:
 ```yaml
 Otázka: Kdy přidat podporu custom domén?
 
-MVP: Subdomain only (username.pixcard.me)
+MVP: Subdomain only (username.pixfolio.me)
 
 v2 Options:
   - Custom domain pointing (john.com → portfolio)
@@ -192,7 +212,7 @@ Kdy: Před public launch (Beta OK bez)
 
 ```yaml
 MVP Options:
-  A) Email only (hello@pixcard.me)
+  A) Email only (hello@pixfolio.me)
      - Simple, manageable
      - Slow response time
   
@@ -238,7 +258,8 @@ Po meetingu vyplň:
 
 ```yaml
 KRITICKÉ:
-  1. Domain name: [ ] pixcard.me [ ] pixfolio.me [ ] jiné: _____
+  1. Domain name: [X] pixfolio.me (DOPORUČENO - legal clear)
+     Alternativa: [ ] pixcard.me (trademark risk)
      Deadline: ASAP
 
 DŮLEŽITÉ:
@@ -274,7 +295,7 @@ BUSINESS:
 ## 🎯 Action Items
 
 **Před začátkem vývoje:**
-- [ ] **Registrovat doménu** (pixcard.me nebo pixfolio.me)
+- [ ] **Registrovat doménu pixfolio.me** (priority #1)
 - [ ] Potvrdit asset naming convention
 - [ ] Definovat color palette s designérem
 

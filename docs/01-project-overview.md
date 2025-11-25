@@ -1,8 +1,10 @@
 # 01 - Přehled projektu
 
+> **⚠️ NAMING UPDATE:** Projekt byl přejmenován z "PixCard" na **"PixFolio"** kvůli právním rizikům (aktivní trademark v Brazílii). V dokumentaci zatím zůstává PixCard, finální rename proběhne po oficiálním rozhodnutí.
+
 ## 🎯 Základní koncept
 
-**Pixcard** je webová služba pro tvorbu interaktivních 2D herních portfolií.
+**PixFolio** (dříve PixCard) je webová služba pro tvorbu interaktivních 2D herních portfolií.
 
 ### Co to je?
 
@@ -17,7 +19,7 @@ No-code platforma, kde si uživatel vytvoří **herní 2D portfolio** – malou 
 ```
 1. User vybere postavu + pozadí
 2. Nastaví dialogy (texty, pozice)
-3. Získá subdoménu: username.pixcard.me
+3. Získá subdoménu: username.pixfolio.me
 4. Sdílí portfolio jako interaktivní hru
 ```
 
@@ -59,18 +61,45 @@ No-code platforma, kde si uživatel vytvoří **herní 2D portfolio** – malou 
 
 ## 🌟 Konkurenční výhoda
 
-| Feature | card.co | Linktree | About.me | **Pixcard** |
-|---------|---------|----------|----------|--------------|
-| **Interaktivita** | ❌ | ❌ | ❌ | ✅ Hra |
-| **Customizace** | Medium | Low | Medium | ✅ High |
-| **Free tier** | ❌ Trial | ✅ Ano | ✅ Ano | ✅ Ano |
-| **Custom domain** | ✅ Premium | ✅ Premium | ✅ Premium | ✅ Premium |
-| **Free subdoména** | ❌ | ✅ | ✅ | ✅ |
-| **Zapamatovatelnost** | Low | Low | Medium | ✅ High |
-| **Gaming focus** | ❌ | ❌ | ❌ | ✅ Ano |
+### Srovnání s existujícími nástroji
+
+| Feature | Linktree | About.me | Carrd | Bento | **Pixcard** |
+|---------|----------|----------|-------|-------|--------------|
+| **Interaktivita** | ❌ Statické linky | ✅ AI chatbot | ❌ Statická stránka | 🟡 Rich embeds | ✅ **Interaktivní hra** |
+| **Customizace** | 🟡 Témata, barvy | 🟡 Templates | ✅ Vysoká | ✅ Vysoká | ✅ **Vysoká + pixel-art** |
+| **Free tier** | ✅ Ano (unlimited links) | ✅ Ano (základní page) | ✅ Ano (3 sites) | ✅ Ano | ✅ **Ano** |
+| **Free subdoména** | ✅ linktr.ee/user | ✅ about.me/user | ✅ user.carrd.co | ✅ bento.me/user | ✅ **pixfolio.me/user** |
+| **Custom domain** | ✅ Premium ($7.5+/mo) | ✅ Pro ($9/mo) | ✅ Pro ($19/yr) | ✅ Premium | ✅ **Premium (v2)** |
+| **Analytics** | ✅ Základní free | ❌ Ne ve free | ✅ Pro only | 🟡 Limited | ✅ **View count** |
+| **Target audience** | Influencers, všichni | Professionals | Web designers | Creatives | 🎮 **Game devs, artists** |
+| **Zapamatovatelnost** | Low | Low | Low | Medium | ✅ **High (gameplay!)** |
+| **Setup čas** | ~5 min | ~10 min | ~15 min | ~10 min | ✅ **~10 min** |
+
+### Co dělá Pixcard unikátní?
+
+**1. Gaming-first approach**
+- Portfolio není jen "stránka s odkazy" – je to **mini-hra**
+- Návštěvník nejen čte, ale **hraje si** a objevuje obsah
+- Perfektní pro game dev community (portfolio = ukázka tvých skills)
+
+**2. Pixel-art aesthetic**
+- Nostalgický retro styl – obrovská popularita (viz itch.io, /r/PixelArt)
+- Visual identity která okamžitě vyčnívá
+- Atraktivní pro ilustrátory a pixel artists
+
+**3. Storytelling mechanika**
+- Dialog system = kreativnější než seznam odkazů
+- Můžeš vyprávět příběh své kariéry
+- Interaktivní způsob prezentace projektů
+
+**4. Zero konkurence v game dev segmentu**
+- Linktree/About.me/Bento = generické pro všechny
+- Behance/Dribbble = statická portfolia
+- **Gap v trhu:** Interaktivní game portfolia neexistují
 
 **Klíčový diferenciátor:**  
-→ Jediná platforma kde je **portfolio samo o sobě interactive experience**
+→ Jediná platforma kde je **portfolio samo o sobě interactive gaming experience**  
+→ Meta-prvek: Tvoje portfolio je ukázka tvého game dev vkusu
 
 ---
 
@@ -84,7 +113,7 @@ FREE (forever):
   - 3 postavy na výběr
   - 3 pozadí na výběr
   - Max 5 dialogů
-  - Subdoména: username.pixcard.me
+  - Subdoména: username.pixfolio.me
   - Basic analytics (view count)
 
 Future monetization (Post-MVP):
@@ -124,11 +153,11 @@ Portfolio platforms:
 3. Vybere username, postavu, pozadí
 4. Přidá dialogy (představení, projekty, kontakt)
 5. Preview → Publish → Sign up (Google)
-6. Hotovo! username.pixcard.me is live
+6. Hotovo! username.pixfolio.me is live
 7. Sdílí na soc. sítích, tracking views
 
 Visitor flow:
-→ Enters: username.pixcard.me
+→ Enters: username.pixfolio.me
 → Loading screen
 → Game starts, character walks
 → Triggers dialogs (info o autorovi)

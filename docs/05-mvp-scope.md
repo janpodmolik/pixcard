@@ -45,7 +45,7 @@ Dialogy:
 1. Click "Publish"
 2. Sign up (Google OAuth přes Supabase)
 3. Save do DB
-4. Redirect → username.pixcard.me
+4. Redirect → username.pixfolio.me
 5. Share buttons (Twitter, LinkedIn, copy link)
 ```
 
@@ -67,7 +67,7 @@ Nové:
 
 ### 6. Edit Mode
 ```yaml
-- pixcard.me/builder → auto-load pokud logged in
+- pixfolio.me/builder → auto-load pokud logged in
 - Edit existing portfolio
 - Auto-save draft (každých 10s)
 - "Publish Changes" button
@@ -143,7 +143,7 @@ Time: <10 minut
 ### Story 2: Zobrazení portfolia
 ```
 Visitor:
-  1. Open username.pixcard.me
+  1. Open username.pixfolio.me
   2. Game loads (<3s)
   3. Control character
   4. Read dialogy
@@ -174,7 +174,7 @@ Returning user:
 ✅ Dialog editor (add/edit/delete)
 ✅ Preview works
 ✅ Publish works
-✅ username.pixcard.me loads portfolio
+✅ username.pixfolio.me loads portfolio
 ✅ Mobile + desktop works
 ✅ Edit existing portfolio works
 ✅ View counter works

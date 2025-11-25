@@ -51,14 +51,14 @@ Twitter Card:
 
 ```yaml
 Povoleno:
-  - Všechna portfolia (*.pixcard.me)
+  - Všechna portfolia (*.pixfolio.me)
   - Landing page
 
 Zakázáno:
   - /api/
   - /admin/
 
-Sitemap: https://pixcard.me/sitemap.xml
+Sitemap: https://pixfolio.me/sitemap.xml
 ```
 
 ### 3. Sitemap
@@ -192,7 +192,7 @@ Google indexuje primárně mobile:
    - DNS TXT record method
 
 2. Submit sitemap
-   - URL: https://pixcard.me/sitemap.xml
+   - URL: https://pixfolio.me/sitemap.xml
 
 3. Monitoring
    - Coverage report (indexování)

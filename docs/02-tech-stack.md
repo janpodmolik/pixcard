@@ -69,7 +69,7 @@ Provider: WebGlobe Ultra
   Cost: ~100-300 Kč/měsíc
   
   Features:
-    ✅ Wildcard subdomain (*.pixcard.me)
+    ✅ Wildcard subdomain (*.pixfolio.me)
     ✅ PHP 8.2 + MySQL 8.0
     ✅ Let's Encrypt SSL
   
@@ -79,7 +79,7 @@ Provider: WebGlobe Ultra
     - Levné pro start
 
 Routing:
-  username.pixcard.me → PHP dynamic routing
+  username.pixfolio.me → PHP dynamic routing
 
 Future scale (>5k users):
   - VPS (Hetzner 5-10€/měsíc)

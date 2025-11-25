@@ -55,7 +55,7 @@ Dokumenty ke čtení:
 ## ❓ Co Ještě Rozhodnout
 
 **URGENTNÍ:**
-- 🔴 **Domain name**: pixcard.me vs pixfolio.me
+- 🔴 **Domain name**: pixfolio.me (doporučeno kvůli legal)
 - 🔴 **Registrovat ASAP!**
 
 **Důležité:**
@@ -81,7 +81,7 @@ Musí mít:
   ✅ Builder (username, character, background, dialogy)
   ✅ Preview (Phaser iframe)
   ✅ Google OAuth sign up
-  ✅ Publish → username.pixcard.me
+  ✅ Publish → username.pixfolio.me
   ✅ Edit mode (draft/publish)
   ✅ View counter
   ✅ Mobile viewing (ne mobile builder)
